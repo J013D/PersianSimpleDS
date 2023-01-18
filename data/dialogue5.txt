@@ -1,0 +1,20 @@
+SYS:[Salutation(greeting)]"سلام!"
+USR:null
+SYS:[Request(area)]"به دنبال چه منطقه‌ای هستید؟"
+USR:"در شمال"
+SYS:[ExpConfirm(area=$area)]"گفتید در شمال؟"
+USR:"بله گفتم"
+SYS:[Request(price)]"به دنبال چه محدوده قیمتی هستید؟"
+USR:"غذای با قیمت معقولانه"
+SYS:[Request(food)]"چه نوع غذایی دوست دارید؟"
+USR:"من مشتاق غذای هندی هستم"
+SYS:[ExpConfirm(food=$food,price=$price)]"گفتید غذای هندی با قیمت معقولانه؟"
+USR:"بله گفتم"
+SYS:[Retrieve(info)]"بذارید ببینم."
+USR:null
+SYS:[Provide(known)]"رستوران الف یک انتخاب عالیست. آن در ب واقع شده است."
+USR:null
+SYS:[AskFor(more)]"چیز دیگه‌ای هست؟"
+USR:"خیر"
+SYS:[Salutation(closing)]"بسیار خوب، به زودی باهاتون حرف میزنم. خدانگهدار!"
+USR:null
